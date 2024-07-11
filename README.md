@@ -1,6 +1,6 @@
 # <p align="center">An ID Wallet</p>
 
-### <p align="center">On a journey to build simple but user-friendly ID wallet app using the react native framework</p>
+### <p align="center">On a journey to build simple & user-friendly ID wallet app using the react native framework</p>
 
 
 <!-- # Welcome to your Expo app 👋
