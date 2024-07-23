@@ -13,7 +13,7 @@ export default function TabTwoScreen() {
       headerBackgroundColor={{ light: '#c5cae9', dark: '#353636' }}
       headerImage={<Ionicons size={310} name="code-slash" style={styles.headerImage} />}>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Dash</ThemedText>
+        <ThemedText type="title">ID List</ThemedText>
       </ThemedView>
       <ThemedText>This app includes example code to help you get started.</ThemedText>
       <Collapsible title="File-based routing">
@@ -96,7 +96,8 @@ const styles = StyleSheet.create({
     position: 'absolute',
   },
   titleContainer: {
-    flexDirection: 'row',
+    flexDirection: 'column', 
+    alignItems: 'center',
     gap: 8,
   },
 });
